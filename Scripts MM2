@@ -2021,7 +2021,7 @@ end
 do -- Example UI
 	local Window = library:AddWindow("Oly's OlFree - Murder Mystery 2", {
 		main_color = Color3.fromRGB(0, 0, 0),
-		min_size = Vector2.new(285, 420),
+		min_size = Vector2.new(285, 495),
 		toggle_key = Enum.KeyCode.LeftAlt,
 		can_resize = true,
 	})
@@ -2046,11 +2046,20 @@ do -- Example UI
  
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 		end)
-		Tab:AddButton("OP - Space Hub", function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/SpaceHubLoader'))()
+        Tab:AddButton("Ski Hub", function()
+			loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+		end)
+        Tab:AddButton("Kidachi Hub", function()
+			loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
+		end)
+        Tab:AddButton("Lunar Hub", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
 		end)
 		Tab:AddButton("OP - Eclipse Hub", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'))()
+		end)
+		Tab:AddButton("OP - Space Hub", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/SpaceHubLoader'))()
 		end)
 		Tab:AddButton("Drifter's GUI", function()
 			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", false))();
